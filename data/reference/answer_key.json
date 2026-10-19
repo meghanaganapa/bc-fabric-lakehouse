@@ -1,0 +1,172 @@
+{
+  "traps": {
+    "scd2_region_changes": [
+      {
+        "company": "CCG",
+        "customer": "C00105",
+        "from": "REGIONAL_VIC",
+        "to": "METRO_VIC"
+      },
+      {
+        "company": "CCG",
+        "customer": "C00080",
+        "from": "METRO_VIC",
+        "to": "REGIONAL_VIC"
+      },
+      {
+        "company": "CCG",
+        "customer": "C00032",
+        "from": "METRO_VIC",
+        "to": "NSW"
+      },
+      {
+        "company": "CCG",
+        "customer": "C00081",
+        "from": "NSW",
+        "to": "REGIONAL_VIC"
+      },
+      {
+        "company": "CCG",
+        "customer": "C00001",
+        "from": "METRO_VIC",
+        "to": "REGIONAL_VIC"
+      },
+      {
+        "company": "CCG",
+        "customer": "C00200",
+        "from": "REGIONAL_VIC",
+        "to": "NSW"
+      },
+      {
+        "company": "RIVERBEND",
+        "customer": "C00049",
+        "from": "METRO_VIC",
+        "to": "NSW"
+      },
+      {
+        "company": "RIVERBEND",
+        "customer": "C00002",
+        "from": "NSW",
+        "to": "REGIONAL_VIC"
+      },
+      {
+        "company": "RIVERBEND",
+        "customer": "C00092",
+        "from": "METRO_VIC",
+        "to": "NSW"
+      }
+    ],
+    "deleted_open_orders": [
+      {
+        "company": "CCG",
+        "order": "SO-002298"
+      },
+      {
+        "company": "CCG",
+        "order": "SO-001175"
+      },
+      {
+        "company": "RIVERBEND",
+        "order": "ORD000420"
+      },
+      {
+        "company": "CCG",
+        "order": "SO-002299"
+      },
+      {
+        "company": "CCG",
+        "order": "SO-001525"
+      },
+      {
+        "company": "RIVERBEND",
+        "order": "ORD001260"
+      },
+      {
+        "company": "CCG",
+        "order": "SO-002305"
+      },
+      {
+        "company": "CCG",
+        "order": "SO-001888"
+      },
+      {
+        "company": "RIVERBEND",
+        "order": "ORD000269"
+      }
+    ],
+    "price_changes": [
+      {
+        "company": "CCG",
+        "item": "ITM-10026",
+        "old": 2804.62,
+        "new": 2944.85
+      },
+      {
+        "company": "CCG",
+        "item": "ITM-10025",
+        "old": 630.06,
+        "new": 661.56
+      },
+      {
+        "company": "CCG",
+        "item": "ITM-10103",
+        "old": 210.16,
+        "new": 226.97
+      },
+      {
+        "company": "CCG",
+        "item": "ITM-10020",
+        "old": 85.37,
+        "new": 76.83
+      },
+      {
+        "company": "RIVERBEND",
+        "item": "RB560",
+        "old": 232.24,
+        "new": 243.85
+      },
+      {
+        "company": "RIVERBEND",
+        "item": "RB506",
+        "old": 64.69,
+        "new": 67.92
+      }
+    ],
+    "late_arriving_invoice": {
+      "invoice": "PSI-002222",
+      "posting_date": "2026-09-30",
+      "arrives_in": "incr_2026-10-02"
+    },
+    "duplicate_rows": {
+      "file": "incr_2026-10-02/sales_invoice_line.csv + sales_invoice_header.csv",
+      "duplicate_invoice_lines": [
+        "PSI-002213/10000",
+        "PSI-002216/30000",
+        "PSI-002222/30000"
+      ],
+      "duplicate_invoice_header": "PSI-002213"
+    },
+    "blank_customer_name": "C00305",
+    "unknown_item": {
+      "invoice": "PSI-002236",
+      "item": "ITM-99999",
+      "amount": 150.0
+    },
+    "blank_quantity_order_line": "SO-002300/10000",
+    "schema_drift": "incr_2026-10-03/sales_header.csv has a new column Delivery_Method"
+  },
+  "cross_company_customer_matches": 25,
+  "cross_company_item_matches_by_gtin": 40,
+  "open_orders_after_2026_10_03": {
+    "CCG": 23,
+    "RIVERBEND": 6
+  },
+  "total_net_sales_excl_gst_to_2026_10_03": {
+    "CCG": 12097726.17,
+    "RIVERBEND": 6522654.12
+  },
+  "sep_30_invoiced_excl_gst_final": {
+    "CCG": 14920.66,
+    "RIVERBEND": 0.0
+  }
+}
